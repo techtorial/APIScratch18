@@ -9,4 +9,14 @@ public class PayLoadUtils {
                 "}";
         return body;
     }
+
+    public static String postProductPayload(String name,int price,String description,int purchase_allow){
+        String body="{\n" +
+                "    \"name\":\""+name+"\",\n" +
+                "    \"price\":"+price+",\n" +
+                "    \"description\":\""+description+"\",\n" +
+                "    \"purchase_allow\":\""+purchase_allow+"\"\n" +
+                "}";
+        return body;
+    }
 }

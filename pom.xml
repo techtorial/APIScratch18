@@ -68,8 +68,8 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <!--                    <useUnlimitedThreads>true</useUnlimitedThreads>-->
-                    <threadCount>2</threadCount>
-                    <forkCount>2</forkCount>
+                    <threadCount>3</threadCount>
+                    <forkCount>3</forkCount>
                     <reuseForks>true</reuseForks>
                     <perCoreThreadCount>false </perCoreThreadCount>
                     <parallel>methods</parallel>
